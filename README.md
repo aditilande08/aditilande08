@@ -5,32 +5,20 @@
 
 <!-- Typing SVG Header -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2800&pause=1000&color=46D9EA&center=true&vCenter=true&width=520&lines=Hii+%F0%9F%91%8B+I'm+Aditi+Lande;Developer+%7C+Building+Products;Data+Analytics+%26+EdTech+%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2800&pause=1000&color=FF69B4&center=true&vCenter=true&width=520&lines=Hii+%F0%9F%91%8B+I'm+Aditi+Lande;Developer+%7C+Building+Products;Data+Analytics+%26+EdTech+%E2%9A%A1" alt="Typing SVG" />
 </a>
 
 <h3 align="center">Developer | Building Products | Data & EdTech ⚡</h3>
-
-
 
 </div>
 
 <br/>
 
-<!-- Side-by-Side: Right-Aligned Aesthetic Coding Graphic & Aditi's YAML Card -->
-<img align="right" alt="Laptop + Coffee = Code" width="380" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
+<!-- Side-by-Side: Left Pink & White Card SVG & Right Pink Neon Graphic -->
+<img align="right" alt="Laptop + Coffee = Code" width="370" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
+<img align="left" alt="Developer Card" width="460" src="./card.svg">
 
-```yaml
-Name: Aditi Lande
-Pronouns: She/Her
-Occupation: Developer
-Branch: Computer Science Engineering Spec. Education Technology
-University: Vellore Institute of Technology, Bhopal
-Location: Bhopal, India
-Interests: Data Analytics, EdTech, Building Products
-Currently-Learning: System Design
-Hobbies: Music 🎧
-Reach-me-at: aditilande02@gmail.com
-```
+<br clear="both"/>
 
 <br/>
 
