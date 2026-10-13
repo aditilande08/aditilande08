@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1180 630" role="img" aria-labelledby="title desc">
+  <title id="title">Aditi Lande | Full-Stack Software Engineer</title>
+  <desc id="desc">Interactive animated terminal profile for Aditi Lande (aditilande08) featuring verified core systems, academic honors from IIT Madras and IIT Kharagpur, and engineering tech stack.</desc>
+  
+  <defs>
+    <!-- Animated Border Gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4;#6366f1;#8b5cf6;#10b981;#06b6d4" dur="14s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#8b5cf6;#10b981;#06b6d4;#6366f1" dur="14s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#10b981;#06b6d4;#6366f1;#8b5cf6" dur="14s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Radar Grid Glow -->
+    <radialGradient id="holoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.32" />
+      <stop offset="60%" stop-color="#06b6d4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Clip path for left panel -->
+    <clipPath id="leftCardClip">
+      <rect x="36" y="88" width="374" height="504" rx="10" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes spinClockwise {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spinCounter {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes pulseHolo {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.06); opacity: 0.45; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes statusPulse {
+      0%, 100% { opacity: 1; r: 4px; }
+      50% { opacity: 0.4; r: 5.5px; }
+    }
+
+    text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .row {
+      animation: fadeIn 0.5s ease-out both;
+      animation-delay: var(--delay);
+    }
+    .cursor {
+      animation: blink 1s infinite;
+    }
+    .spin-cw {
+      animation: spinClockwise 22s linear infinite;
+      transform-origin: 223px 210px;
+    }
+    .spin-ccw {
+      animation: spinCounter 16s linear infinite;
+      transform-origin: 223px 210px;
+    }
+    .holo-pulse {
+      animation: pulseHolo 4s ease-in-out infinite;
+      transform-origin: 223px 210px;
+    }
+    .live-dot {
+      animation: statusPulse 2s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .row { animation: none !important; opacity: 1 !important; }
+      .spin-cw, .spin-ccw, .holo-pulse, .live-dot { animation: none !important; }
+    }
+  </style>
+
+  <!-- Outer Window Frame -->
+  <rect x="2" y="2" width="1176" height="626" rx="16" fill="#090d16" stroke="url(#accentGradient)" stroke-width="2" />
+
+  <!-- Window Header Bar -->
+  <path d="M3 48 H1177" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Mac Terminal Traffic Light Controls -->
+  <circle cx="28" cy="25" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="47" cy="25" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="66" cy="25" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <!-- Center Window Title -->
+  <text x="590" y="30" text-anchor="middle" font-size="12" fill="#64748b" letter-spacing="0.4">
+    aditilande08@github ~ % ./profile.sh --live (main ⚡)
+  </text>
+
+  <!-- ========================================== -->
+  <!-- LEFT PANEL: VISUAL.MAP / IDENTITY RADAR   -->
+  <!-- ========================================== -->
+  <text x="36" y="75" font-size="10.5" font-weight="600" letter-spacing="3" fill="#64748b">VISUAL.MAP</text>
+  
+  <g clip-path="url(#leftCardClip)">
+    <!-- Left Card Background -->
+    <rect x="36" y="88" width="374" height="504" rx="10" fill="#0d1322" stroke="#1e293b" stroke-width="1.4" />
+    
+    <!-- Background Grid Lines -->
+    <path d="M36 150 H410 M36 210 H410 M36 270 H410 M36 330 H410 M36 390 H410" stroke="#161f36" stroke-width="0.8" stroke-dasharray="3, 3" />
+    <path d="M110 88 V592 M185 88 V592 M260 88 V592 M335 88 V592" stroke="#161f36" stroke-width="0.8" stroke-dasharray="3, 3" />
+
+    <!-- Ambient Radial Glow Behind Orb -->
+    <circle cx="223" cy="210" r="130" fill="url(#holoGlow)" />
+
+    <!-- Technical Telemetry Labels -->
+    <text x="52" y="112" font-size="9" fill="#475569" letter-spacing="1">ID: AL-2027</text>
+    <text x="394" y="112" text-anchor="end" font-size="9" fill="#06b6d4" letter-spacing="1">● SECURE.LOCKED</text>
+
+    <!-- Animated Holographic Core Emblem -->
+    <!-- Outer Orbit Ring -->
+    <circle cx="223" cy="210" r="68" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="4, 6" />
+    <circle cx="223" cy="210" r="68" fill="none" stroke="#6366f1" stroke-width="1.8" stroke-dasharray="32, 70" class="spin-cw" />
+    
+    <!-- Middle Orbit Ring -->
+    <circle cx="223" cy="210" r="54" fill="none" stroke="#06b6d4" stroke-width="1.6" stroke-dasharray="24, 40" class="spin-ccw" />
+    
+    <!-- Pulse Aura -->
+    <circle cx="223" cy="210" r="44" fill="#1e1b4b" fill-opacity="0.6" stroke="#818cf8" stroke-width="1.2" class="holo-pulse" />
+    
+    <!-- Core Medallion -->
+    <circle cx="223" cy="210" r="38" fill="#0b0f19" stroke="#6366f1" stroke-width="2" />
+    
+    <!-- Monogram <AL /> -->
+    <text x="223" y="217" text-anchor="middle" font-size="18" font-weight="bold" fill="#38bdf8" letter-spacing="0.5">&lt;AL /&gt;</text>
+
+    <!-- Profile Identification -->
+    <text x="223" y="302" text-anchor="middle" font-family="system-ui, sans-serif" font-size="19" font-weight="700" fill="#f8fafc">Aditi Lande</text>
+    <text x="223" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#818cf8" letter-spacing="1.5">FULL-STACK SOFTWARE ENGINEER</text>
+    <text x="223" y="340" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#94a3b8">B.Tech CSE '27 • VIT Bhopal</text>
+
+    <!-- Key Verified Credential Badges -->
+    <!-- Badge 1: IIT Madras Gold -->
+    <g transform="translate(52, 362)">
+      <rect width="342" height="42" rx="7" fill="#131c31" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.8" />
+      <circle cx="22" cy="21" r="10" fill="#2d2412" />
+      <text x="22" y="25" text-anchor="middle" font-size="12">🥇</text>
+      <text x="42" y="17" font-size="10.5" font-weight="600" fill="#fbbf24">IIT Madras Gold Medalist (94%)</text>
+      <text x="42" y="32" font-size="9" fill="#94a3b8">Data Structures &amp; Algorithms with Python</text>
+    </g>
+
+    <!-- Badge 2: IIT KGP Elite -->
+    <g transform="translate(52, 414)">
+      <rect width="342" height="42" rx="7" fill="#131c31" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.8" />
+      <circle cx="22" cy="21" r="10" fill="#102a3a" />
+      <text x="22" y="25" text-anchor="middle" font-size="12">☁️</text>
+      <text x="42" y="17" font-size="10.5" font-weight="600" fill="#38bdf8">IIT Kharagpur Cloud Computing</text>
+      <text x="42" y="32" font-size="9" fill="#94a3b8">Elite Certification • Distributed Architectures</text>
+    </g>
+
+    <!-- Badge 3: Placement Readiness -->
+    <g transform="translate(52, 466)">
+      <rect width="342" height="42" rx="7" fill="#131c31" stroke="#10b981" stroke-width="1" stroke-opacity="0.8" />
+      <circle cx="22" cy="21" r="10" fill="#132e24" />
+      <text x="22" y="25" text-anchor="middle" font-size="12">🚀</text>
+      <text x="42" y="17" font-size="10.5" font-weight="600" fill="#34d399">Placement Track: SDE-1 Ready</text>
+      <text x="42" y="32" font-size="9" fill="#94a3b8">Targeting Campus Drives &amp; Tech Internships</text>
+    </g>
+
+    <!-- Badge 4: Leadership -->
+    <g transform="translate(52, 518)">
+      <rect width="342" height="42" rx="7" fill="#131c31" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.8" />
+      <circle cx="22" cy="21" r="10" fill="#241b38" />
+      <text x="22" y="25" text-anchor="middle" font-size="12">🤝</text>
+      <text x="42" y="17" font-size="10.5" font-weight="600" fill="#c084fc">EDU4U Tech Coordinator</text>
+      <text x="42" y="32" font-size="9" fill="#94a3b8">Organized large-scale events (500+ students)</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- RIGHT PANEL: TERMINAL LOGS & CORE SYSTEMS -->
+  <!-- ========================================== -->
+  <text x="444" y="75" font-size="10.5" font-weight="600" letter-spacing="3" fill="#64748b">TERMINAL.LOG</text>
+
+  <!-- Terminal Output Frame -->
+  <g transform="translate(444, 88)">
+    <rect width="698" height="504" rx="10" fill="#0d1322" stroke="#1e293b" stroke-width="1.4" />
+
+    <!-- Terminal Inner Content -->
+    <g transform="translate(24, 0)">
+      
+      <!-- Row 1: Command Prompt -->
+      <g class="row" style="--delay: 0.05s">
+        <text x="0" y="32" font-size="12.5" fill="#38bdf8">aditilande08@github:~$</text>
+        <text x="175" y="32" font-size="12.5" fill="#f8fafc">cat engineer_profile.json</text>
+      </g>
+
+      <!-- Row 2: JSON Profile Definition -->
+      <g class="row" style="--delay: 0.15s">
+        <text x="0" y="56" font-size="11.5" fill="#f8fafc">{</text>
+        <text x="16" y="56" font-size="11.5" fill="#94a3b8">  "role":</text>
+        <text x="92" y="56" font-size="11.5" fill="#38bdf8">"Full-Stack Software Engineer (SDE-1)"</text>
+        <text x="390" y="56" font-size="11.5" fill="#f8fafc">,</text>
+        
+        <text x="16" y="76" font-size="11.5" fill="#94a3b8">  "institution":</text>
+        <text x="142" y="76" font-size="11.5" fill="#fbbf24">"Vellore Institute of Technology, Bhopal (CSE '27)"</text>
+        <text x="560" y="76" font-size="11.5" fill="#f8fafc">,</text>
+
+        <text x="16" y="96" font-size="11.5" fill="#94a3b8">  "focus":</text>
+        <text x="92" y="96" font-size="11.5" fill="#c084fc">["Distributed Systems", "PostgreSQL Advisory Locks", "Next.js Full-Stack"]</text>
+        <text x="635" y="96" font-size="11.5" fill="#f8fafc">}</text>
+      </g>
+
+      <!-- Row 3: Section Divider -->
+      <g class="row" style="--delay: 0.25s">
+        <path d="M0 114 H650" stroke="#1e293b" stroke-width="1" />
+        <text x="0" y="132" font-size="10.5" font-weight="600" fill="#64748b" letter-spacing="1.5">// PRODUCTION-GRADE VERIFIED SYSTEMS</text>
+      </g>
+
+      <!-- System 1: Healthcare Appointment Platform -->
+      <g class="row" style="--delay: 0.35s">
+        <rect x="0" y="146" width="650" height="58" rx="6" fill="#131c31" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.4" />
+        <text x="12" y="165" font-size="12" font-weight="700" fill="#38bdf8">[01] healthcare-appointment-platform</text>
+        <text x="335" y="165" font-size="10.5" fill="#94a3b8">Node.js • Express • PostgreSQL • Docker</text>
+        <text x="12" y="182" font-size="11" fill="#cbd5e1">➔ PostgreSQL Advisory Locks (pg_advisory_xact_lock)</text>
+        <text x="12" y="196" font-size="10" fill="#64748b">   ↳ Eliminates double-booking race conditions | Dockerized | 9 Jest test suites</text>
+      </g>
+
+      <!-- System 2: DevLens AI -->
+      <g class="row" style="--delay: 0.45s">
+        <rect x="0" y="214" width="650" height="58" rx="6" fill="#131c31" stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.4" />
+        <text x="12" y="233" font-size="12" font-weight="700" fill="#c084fc">[02] devlens-ai</text>
+        <text x="140" y="233" font-size="10.5" fill="#94a3b8">19-Page Academic Capstone Paper • SQLite • Chart.js</text>
+        <text x="12" y="250" font-size="11" fill="#cbd5e1">➔ Heuristic Static Analysis &amp; Jaccard Similarity Stack Matching</text>
+        <text x="12" y="264" font-size="10" fill="#64748b">   ↳ Portfolio Quality Score (PQS) engine | Automated dependency &amp; git audit</text>
+      </g>
+
+      <!-- System 3: TalentDash -->
+      <g class="row" style="--delay: 0.55s">
+        <rect x="0" y="282" width="650" height="58" rx="6" fill="#131c31" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.4" />
+        <text x="12" y="301" font-size="12" font-weight="700" fill="#34d399">[03] talentdash</text>
+        <text x="135" y="301" font-size="10.5" fill="#94a3b8">Next.js 16 (App Router) • React 19 • PostgreSQL</text>
+        <text x="12" y="318" font-size="11" fill="#cbd5e1">➔ Multi-Tier Compensation Analytics &amp; Composite Indexing</text>
+        <text x="12" y="332" font-size="10" fill="#64748b">   ↳ @@index([company_id, level, location]) | Live on Vercel</text>
+      </g>
+
+      <!-- Row 4: Tech Stack Definition -->
+      <g class="row" style="--delay: 0.65s">
+        <path d="M0 354 H650" stroke="#1e293b" stroke-width="1" />
+        <text x="0" y="372" font-size="11.5" fill="#818cf8">const</text>
+        <text x="44" y="372" font-size="11.5" fill="#f8fafc">techStack = {</text>
+        
+        <text x="16" y="390" font-size="11" fill="#94a3b8">languages:</text>
+        <text x="100" y="390" font-size="11" fill="#38bdf8">["TypeScript", "JavaScript", "C++", "SQL", "Python"]</text>
+        <text x="495" y="390" font-size="11" fill="#f8fafc">,</text>
+
+        <text x="16" y="408" font-size="11" fill="#94a3b8">frameworks:</text>
+        <text x="106" y="408" font-size="11" fill="#34d399">["React 19", "Next.js 16", "Node.js", "Express", "Docker"]</text>
+        <text x="540" y="408" font-size="11" fill="#f8fafc">};</text>
+      </g>
+
+      <!-- Row 5: Terminal Interactive Status Prompt -->
+      <g class="row" style="--delay: 0.75s">
+        <path d="M0 424 H650" stroke="#1e293b" stroke-width="1" />
+        <text x="0" y="444" font-size="12" fill="#38bdf8">aditilande08@github:~$</text>
+        <text x="175" y="444" font-size="12" fill="#f8fafc">echo $STATUS</text>
+        
+        <circle cx="5" cy="466" r="4.5" fill="#10b981" class="live-dot" />
+        <text x="16" y="470" font-size="11.5" font-weight="600" fill="#10b981">ONLINE: Ready for Technical Interviews &amp; SDE-1 Campus Drives</text>
+        <text x="496" y="470" font-size="13" font-weight="bold" fill="#38bdf8" class="cursor">▋</text>
+      </g>
+
+    </g>
+  </g>
+</svg>
