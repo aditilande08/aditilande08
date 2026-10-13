@@ -10,8 +10,6 @@
 
 <h3 align="center">Building Resilient, High-Throughput Distributed Web Systems ⚡</h3>
 
-<br/>
-
 <!-- Profile Visits & Status Badges -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aditilande08&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
@@ -24,8 +22,8 @@
 
 <br/>
 
-<!-- Right-Aligned Minimalist Tech Circuit Animation GIF & Developer YAML Card -->
-<img align="right" alt="Tech Circuit Animation" width="400" height="240" src="https://images.squarespace-cdn.com/content/v1/5fbc99015f60bf5485f40398/1614275005829-Y31K6Z5Y2E6I5W0L2V5O/Circuit_Board_Animation.gif" />
+<!-- Side-by-Side: Right-Aligned Developer GIF & Aditi's Verified YAML Card -->
+<img align="right" alt="Developer Coding GIF" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ```yaml
 Name: Aditi Lande
@@ -54,20 +52,23 @@ Reach-me-at: aditilande08@gmail.com
 
 <h2 align="left">🧑🏻‍💻 &nbsp; Connect with me</h2> 
 
-<div align="left">
+<p align="left">
   <a href="https://linkedin.com/in/aditi-lande" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aditi-lande" height="30" width="40" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
   </a>
+  &nbsp;
   <a href="https://github.com/aditilande08" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="aditilande08" height="30" width="40" />
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
   </a>
+  &nbsp;
   <a href="https://leetcode.com/u/aditilande08/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aditilande08" height="30" width="40" />
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="28" alt="LeetCode" />
   </a>
+  &nbsp;
   <a href="mailto:aditilande08@gmail.com" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="aditilande08@gmail.com" height="30" width="40" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Gmail" />
   </a>
-</div>
+</p>
 
 <br/>
 
@@ -152,12 +153,6 @@ Reach-me-at: aditilande08@gmail.com
 <div align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=aditilande08&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b1120&title_color=46d9ea&icon_color=b69bff&text_color=cbd5e1" alt="Aditi's GitHub Stats" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=aditilande08&theme=tokyonight&hide_border=true&background=0b1120&ring=46d9ea&fire=ffbd44&currStreakNum=30c96a" alt="Aditi's Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=aditilande08&theme=react-dark&color=b69bff&line=46d9ea&point=ffffff&area=true&bg_color=0b1120" alt="GitHub Activity Graph" />
 </div>
 
 <br/>
