@@ -1,5 +1,5 @@
 <!-- Top Animated Line -->
-![Animated Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
 
@@ -10,8 +10,7 @@
 
 <h3 align="center">Developer | Building Products | Data & EdTech ⚡</h3>
 
-<!-- Profile Visits -->
-<img src="https://komarev.com/ghpvc/?username=aditilande08&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
+
 
 </div>
 
