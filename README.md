@@ -14,10 +14,10 @@
 
 <br/>
 
-<!-- Side-by-Side: Right Neon Graphic Floated First + Left Card SVG Flush -->
-<img align="right" alt="Laptop + Coffee = Code" width="44%" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
-<img alt="Developer Card" width="54%" src="./card.svg">
-
+<!-- Side-by-Side: Developer Card (Left) & Neon Graphic (Right) Flush Alignment -->
+<p align="center">
+  <img align="right" alt="Laptop + Coffee = Code" width="44%" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6" /><img align="left" alt="Developer Card" width="54%" src="./card.svg" />
+</p>
 <br clear="both"/>
 
 <br/>
