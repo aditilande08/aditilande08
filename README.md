@@ -74,15 +74,4 @@ Reach-me-at: aditilande02@gmail.com
 
 <br/>
 
-<!-- GitHub Analytics & LeetCode Stats -->
-<h2 align="left">📊 &nbsp; Engineering Stats</h2>
 
-<p align="center">
-  <a href="https://leetcode.com/u/aditilande08/">
-    <img height="165" src="https://leetcard.jacoblin.cool/aditilande08?theme=tokyonight&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/aditilande08">
-    <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=aditilande08&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
-  </a>
-</p>
