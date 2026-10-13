@@ -1,3 +1,4 @@
+<img width="1051" height="603" alt="Screenshot 2026-10-14 040828" src="https://github.com/user-attachments/assets/c61f506c-1b35-4396-82b4-bff22f4a8ccf" />
 <!-- Top Animated Line -->
 ![Animated Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
 
@@ -18,7 +19,8 @@
 <br/>
 
 <!-- Side-by-Side: Right-Aligned Aesthetic Coding Photo & Aditi's YAML Card -->
-<img align="right" alt="Aesthetic Coding Setup" width="280" src="./aesthetic.png">
+<img align="right" alt="Aesthetic Coding Setup" width="280" src="<img width="1051" height="603" alt="Screenshot 2026-10-14 040828" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6" />
+">
 
 ```yaml
 Name: Aditi Lande
