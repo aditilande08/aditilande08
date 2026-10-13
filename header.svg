@@ -1,71 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1180 630" role="img" aria-labelledby="title desc">
-  <title id="title">Aditi Lande | Full-Stack Software Engineer</title>
-  <desc id="desc">An animated terminal profile. A detailed portrait of Aditi Lande morphs into a code symbol and a sphere, then reforms. Full-Stack SDE, Distributed Backend, PostgreSQL concurrency, Next.js, and academic honors.</desc>
-  
-  <defs>
-    <!-- Animated Border Gradient: Sandhit Palette (Cyan to Lavender) -->
-    <linearGradient id="accent">
-      <stop stop-color="#46d9ea">
-        <animate attributeName="stop-color" values="#46d9ea;#b69bff;#46d9ea" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#b69bff">
-        <animate attributeName="stop-color" values="#b69bff;#46d9ea;#b69bff" dur="12s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
+<title id="title">Aditi Lande | Software Engineer &amp; Data Analyst</title>
+<desc id="desc">An animated terminal profile. A detailed portrait morphs into a code symbol and a sphere, then reforms. B.Tech CSE (Education Technology) @ VIT Bhopal, Full-Stack &amp; Data Analytics.</desc>
 
-    <!-- Clip path for portrait panel -->
-    <clipPath id="portraitClip">
-      <rect x="36" y="86" width="390" height="486" rx="8"/>
-    </clipPath>
-  </defs>
+<defs>
+  <linearGradient id="accent">
+    <stop stop-color="#46d9ea">
+      <animate attributeName="stop-color" values="#46d9ea;#b69bff;#46d9ea" dur="12s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#b69bff">
+      <animate attributeName="stop-color" values="#b69bff;#46d9ea;#b69bff" dur="12s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <clipPath id="portraitClip">
+    <rect x="36" y="86" width="390" height="486" rx="8"/>
+  </clipPath>
+</defs>
 
-  <style>
-    text {
-      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-    }
-    .row {
-      animation: enter 0.65s ease-out both;
-      animation-delay: var(--delay);
-    }
-    @keyframes enter {
-      from { opacity: 0; transform: translateX(-8px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    .cursor {
-      animation: blink 1s infinite;
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .row { animation: none !important; }
-    }
-  </style>
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+  .row { animation: enter .65s ease-out both; animation-delay: var(--delay); }
+  @keyframes enter { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+  @media(prefers-reduced-motion:reduce) { .row { animation: none; } }
+</style>
 
-  <!-- Outer Window Frame -->
-  <rect x="2" y="2" width="1176" height="626" rx="18" fill="#0b1120" stroke="url(#accent)" stroke-width="2"/>
-  
-  <!-- Window Header Bar -->
-  <path d="M3 48 H1177" stroke="#29384f"/>
-  
-  <!-- Mac Window Traffic Lights -->
-  <circle cx="28" cy="25" r="5" fill="#ff665c"/>
-  <circle cx="47" cy="25" r="5" fill="#ffbd44"/>
-  <circle cx="66" cy="25" r="5" fill="#30c96a"/>
-  
-  <!-- Top Title -->
-  <text x="590" y="29" text-anchor="middle" font-size="12" fill="#9dacc5">aditilande08@github ~ % ./profile.sh --live</text>
-  
-  <!-- Left Panel Header -->
-  <text x="36" y="74" font-size="10" letter-spacing="3" fill="#9dacc5">VISUAL.MAP</text>
-  
-  <!-- Left Panel Frame Box -->
-  <rect x="36" y="86" width="390" height="486" rx="8" fill="#0e1729" stroke="#29384f"/>
+<!-- Terminal Outer Shell -->
+<rect x="2" y="2" width="1176" height="626" rx="18" fill="#0b1120" stroke="url(#accent)" stroke-width="2"/>
+<path d="M3 48H1177" stroke="#29384f"/>
+<circle cx="28" cy="25" r="5" fill="#ff665c"/>
+<circle cx="47" cy="25" r="5" fill="#ffbd44"/>
+<circle cx="66" cy="25" r="5" fill="#30c96a"/>
+<text x="590" y="29" text-anchor="middle" font-size="12" fill="#9dacc5">aditilande08@github ~ % ./profile.sh --live</text>
 
-  <!-- Animated Morphing Particle Matrix -->
-  <g clip-path="url(#portraitClip)">
-    <g transform="translate(36 86)" fill="#b69bff">
+<!-- VISUAL.MAP Left Panel -->
+<text x="36" y="74" font-size="10" letter-spacing="3" fill="#9dacc5">VISUAL.MAP</text>
+<rect x="36" y="86" width="390" height="486" rx="8" fill="#0e1729" stroke="#29384f"/>
+<path d="M36 101V86h15 M411 86h15v15 M36 557v15h15 M411 572h15v-15" fill="none" stroke="#46d9ea" stroke-width="2"/>
+
+<!-- Animated Morphing Portrait -->
+<g clip-path="url(#portraitClip)">
+  <g transform="translate(36 86)" fill="#b69bff">
 <g transform="translate(178.6 49.5)"><animateTransform attributeName="transform" type="translate" values="178.6 49.5;178.6 49.5;170.9 197.7;170.9 197.7;144.8 143.3;144.8 143.3;178.6 49.5;178.6 49.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
 <g transform="translate(189.5 49.5)"><animateTransform attributeName="transform" type="translate" values="189.5 49.5;189.5 49.5;171.7 192.1;171.7 192.1;155.6 153.7;155.6 153.7;189.5 49.5;189.5 49.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
 <g transform="translate(200.5 49.5)"><animateTransform attributeName="transform" type="translate" values="200.5 49.5;200.5 49.5;168.7 185.4;168.7 185.4;150.0 137.6;150.0 137.6;200.5 49.5;200.5 49.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
@@ -705,102 +678,120 @@
 <g transform="translate(342.7 456.5)"><animateTransform attributeName="transform" type="translate" values="342.7 456.5;342.7 456.5;262.5 297.1;262.5 297.1;282.7 291.6;282.7 291.6;342.7 456.5;342.7 456.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
 <g transform="translate(353.6 456.5)"><animateTransform attributeName="transform" type="translate" values="353.6 456.5;353.6 456.5;303.9 308.9;303.9 308.9;297.6 283.0;297.6 283.0;353.6 456.5;353.6 456.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
 <g transform="translate(364.5 456.5)"><animateTransform attributeName="transform" type="translate" values="364.5 456.5;364.5 456.5;210.0 250.9;210.0 250.9;292.2 271.9;292.2 271.9;364.5 456.5;364.5 456.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
-    </g>
   </g>
+</g>
 
-  <!-- ========================================== -->
-  <!-- RIGHT PANEL: TERMINAL PROFILE & SYSTEMS    -->
-  <!-- ========================================== -->
-  <text x="456" y="74" font-size="10" letter-spacing="3" fill="#9dacc5">TERMINAL.LOG</text>
-  <rect x="456" y="86" width="688" height="486" rx="8" fill="#0e1729" stroke="#29384f"/>
+<!-- ============================================== -->
+<!-- RIGHT PANEL: SYSTEM.INFO ARCHITECTURE          -->
+<!-- ============================================== -->
+<text x="460" y="90" fill="#46d9ea" font-size="12" font-weight="700" text-anchor="start">SYSTEM.INFO</text>
+<path d="M570 86H1072" stroke="#29384f"/>
+<circle cx="1090" cy="85" r="3" fill="#30c96a"><animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="1102" y="90" fill="#9dacc5" font-size="10" font-weight="400" text-anchor="start">LIVE</text>
 
-  <g transform="translate(480, 116)">
-    
-    <!-- Row 1: Command line -->
-    <g class="row" style="--delay: 0.05s">
-      <text x="0" y="0" font-size="13" fill="#46d9ea">aditilande08@github:~$</text>
-      <text x="180" y="0" font-size="13" fill="#e2e8f0">cat profile.json</text>
-    </g>
+<!-- Name & Role -->
+<text x="460" y="127" fill="#f8fafc" font-size="26" font-weight="700" text-anchor="start">Aditi Lande</text>
+<text x="460" y="152" fill="#9dacc5" font-size="14" font-weight="400" text-anchor="start">Software Engineer · Full Stack &amp; Data Analytics</text>
 
-    <!-- Row 2: Developer JSON object -->
-    <g class="row" style="--delay: 0.15s">
-      <text x="0" y="24" font-size="12" fill="#cbd5e1">{</text>
-      <text x="16" y="42" font-size="12" fill="#9dacc5">"name":</text>
-      <text x="76" y="42" font-size="12" fill="#46d9ea">"Aditi Lande"</text>
-      <text x="176" y="42" font-size="12" fill="#cbd5e1">,</text>
-      <text x="190" y="42" font-size="12" fill="#9dacc5">"role":</text>
-      <text x="246" y="42" font-size="12" fill="#b69bff">"Full-Stack Software Engineer (SDE-1)"</text>
-      <text x="540" y="42" font-size="12" fill="#cbd5e1">,</text>
+<!-- Row 1: Education -->
+<g class="row" style="--delay:0.25s">
+  <path d="M460 187H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="177" width="88" height="20" fill="#0b1120"/>
+  <rect x="730" y="177" width="408" height="20" fill="#0b1120"/>
+  <text x="460" y="191" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Education</text>
+  <text x="1138" y="191" fill="#f8fafc" font-size="13.5" font-weight="600" text-anchor="end">B.Tech CSE (Education Technology) · VIT Bhopal '27</text>
+</g>
 
-      <text x="16" y="62" font-size="12" fill="#9dacc5">"education":</text>
-      <text x="115" y="62" font-size="12" fill="#fbbf24">"B.Tech CSE '27 • VIT Bhopal"</text>
-      <text x="350" y="62" font-size="12" fill="#cbd5e1">,</text>
-      <text x="365" y="62" font-size="12" fill="#9dacc5">"gpa":</text>
-      <text x="415" y="62" font-size="12" fill="#34d399">"8.37 / 10.0"</text>
-      <text x="500" y="62" font-size="12" fill="#cbd5e1">,</text>
+<!-- Row 2: Certifications -->
+<g class="row" style="--delay:0.34s">
+  <path d="M460 215H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="205" width="105" height="20" fill="#0b1120"/>
+  <rect x="800" y="205" width="338" height="20" fill="#0b1120"/>
+  <text x="460" y="219" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Certifications</text>
+  <text x="1138" y="219" fill="#fbbf24" font-size="13.5" font-weight="600" text-anchor="end">☁️ IIT Kharagpur Elite Cloud Computing</text>
+</g>
 
-      <text x="16" y="82" font-size="12" fill="#9dacc5">"honors":</text>
-      <text x="86" y="82" font-size="12" fill="#fbbf24">["🥇 IIT Madras Gold Medal (94%)", "☁️ IIT Kharagpur Elite Cloud"]</text>
-      <text x="0" y="102" font-size="12" fill="#cbd5e1">}</text>
-    </g>
+<!-- Row 3: Focus -->
+<g class="row" style="--delay:0.43s">
+  <path d="M460 243H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="233" width="55" height="20" fill="#0b1120"/>
+  <rect x="800" y="233" width="338" height="20" fill="#0b1120"/>
+  <text x="460" y="247" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Focus</text>
+  <text x="1138" y="247" fill="#f8fafc" font-size="13.5" font-weight="600" text-anchor="end">Distributed Systems · Analytics · Concurrency</text>
+</g>
 
-    <!-- Row 3: Section separator -->
-    <g class="row" style="--delay: 0.25s">
-      <path d="M0 120 H640" stroke="#29384f" stroke-width="1"/>
-      <text x="0" y="140" font-size="11" font-weight="600" fill="#9dacc5" letter-spacing="1.5">// AUDITED CORE SYSTEMS (PRODUCTION-GRADE)</text>
-    </g>
+<!-- Row 4: Status -->
+<g class="row" style="--delay:0.52s">
+  <path d="M460 271H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="261" width="62" height="20" fill="#0b1120"/>
+  <rect x="830" y="261" width="308" height="20" fill="#0b1120"/>
+  <text x="460" y="275" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Status</text>
+  <text x="1138" y="275" fill="#30c96a" font-size="13.5" font-weight="600" text-anchor="end">Actively Interviewing · SDE-1 &amp; Analyst</text>
+</g>
 
-    <!-- System 1: Healthcare Appointment Platform -->
-    <g class="row" style="--delay: 0.35s">
-      <rect x="0" y="156" width="640" height="58" rx="6" fill="#131f37" stroke="#46d9ea" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="14" y="176" font-size="12" font-weight="700" fill="#46d9ea">[01] healthcare-appointment-platform</text>
-      <text x="330" y="176" font-size="10.5" fill="#9dacc5">Node.js • Express • PostgreSQL • Docker</text>
-      <text x="14" y="193" font-size="11" fill="#e2e8f0">➔ PostgreSQL Advisory Locks (pg_advisory_xact_lock)</text>
-      <text x="14" y="206" font-size="10" fill="#64748b">   ↳ Solves double-booking race condition under concurrency | 9 Jest test suites</text>
-    </g>
+<!-- Row 5: Core Languages -->
+<g class="row" style="--delay:0.61s">
+  <path d="M460 301H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="291" width="88" height="20" fill="#0b1120"/>
+  <rect x="810" y="291" width="328" height="20" fill="#0b1120"/>
+  <text x="460" y="305" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Core.Lang</text>
+  <text x="1138" y="305" fill="#f8fafc" font-size="13.5" font-weight="600" text-anchor="end">C++, TypeScript, Python, SQL, JavaScript</text>
+</g>
 
-    <!-- System 2: DevLens AI -->
-    <g class="row" style="--delay: 0.45s">
-      <rect x="0" y="224" width="640" height="58" rx="6" fill="#131f37" stroke="#b69bff" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="14" y="244" font-size="12" font-weight="700" fill="#b69bff">[02] devlens-ai</text>
-      <text x="135" y="244" font-size="10.5" fill="#9dacc5">19-Page Academic Capstone Paper • SQLite • Chart.js</text>
-      <text x="14" y="261" font-size="11" fill="#e2e8f0">➔ Heuristic Static Analysis &amp; Jaccard Similarity Stack Matcher</text>
-      <text x="14" y="274" font-size="10" fill="#64748b">   ↳ Portfolio Quality Score (PQS) engine | Multi-radar competency mapping</text>
-    </g>
+<!-- Row 6: Core FullStack -->
+<g class="row" style="--delay:0.70s">
+  <path d="M460 329H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="319" width="125" height="20" fill="#0b1120"/>
+  <rect x="840" y="319" width="298" height="20" fill="#0b1120"/>
+  <text x="460" y="333" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Core.FullStack</text>
+  <text x="1138" y="333" fill="#f8fafc" font-size="13.5" font-weight="600" text-anchor="end">React 19, Next.js 16, Node.js, Express</text>
+</g>
 
-    <!-- System 3: TalentDash -->
-    <g class="row" style="--delay: 0.55s">
-      <rect x="0" y="292" width="640" height="58" rx="6" fill="#131f37" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="14" y="312" font-size="12" font-weight="700" fill="#34d399">[03] talentdash</text>
-      <text x="135" y="312" font-size="10.5" fill="#9dacc5">Next.js 16 (App Router) • React 19 • PostgreSQL</text>
-      <text x="14" y="329" font-size="11" fill="#e2e8f0">➔ High-Throughput Salary Intelligence &amp; Composite Indexing</text>
-      <text x="14" y="342" font-size="10" fill="#64748b">   ↳ @@index([company_id, level, location]) | Live on Vercel</text>
-    </g>
+<!-- Row 7: Core Data & Analytics -->
+<g class="row" style="--delay:0.79s">
+  <path d="M460 357H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="347" width="135" height="20" fill="#0b1120"/>
+  <rect x="830" y="347" width="308" height="20" fill="#0b1120"/>
+  <text x="460" y="361" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Core.Data/Analytics</text>
+  <text x="1138" y="361" fill="#f8fafc" font-size="13.5" font-weight="600" text-anchor="end">PostgreSQL, Prisma, SQLite, Data Analysis</text>
+</g>
 
-    <!-- Row 4: Tech Stack Array -->
-    <g class="row" style="--delay: 0.65s">
-      <path d="M0 366 H640" stroke="#29384f" stroke-width="1"/>
-      <text x="0" y="386" font-size="11.5" fill="#b69bff">const</text>
-      <text x="44" y="386" font-size="11.5" fill="#e2e8f0">techStack = {</text>
-      
-      <text x="16" y="404" font-size="11" fill="#9dacc5">languages:</text>
-      <text x="100" y="404" font-size="11" fill="#46d9ea">["TypeScript", "JavaScript", "C++", "SQL", "Python"]</text>
-      <text x="495" y="404" font-size="11" fill="#e2e8f0">,</text>
+<!-- Row 8: Core Cloud & DevOps -->
+<g class="row" style="--delay:0.88s">
+  <path d="M460 385H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="375" width="96" height="20" fill="#0b1120"/>
+  <rect x="880" y="375" width="258" height="20" fill="#0b1120"/>
+  <text x="460" y="389" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Core.Cloud</text>
+  <text x="1138" y="389" fill="#f8fafc" font-size="13.5" font-weight="600" text-anchor="end">Docker, Git, Linux, Vercel, REST APIs</text>
+</g>
 
-      <text x="16" y="420" font-size="11" fill="#9dacc5">frameworks:</text>
-      <text x="106" y="420" font-size="11" fill="#34d399">["React 19", "Next.js 16", "Node.js", "Express", "Docker"]</text>
-      <text x="540" y="420" font-size="11" fill="#e2e8f0">};</text>
-    </g>
+<!-- Row 9: Core Systems & Projects -->
+<g class="row" style="--delay:0.97s">
+  <path d="M460 413H1138" stroke="#29384f" stroke-dasharray="2 5"/>
+  <rect x="460" y="403" width="115" height="20" fill="#0b1120"/>
+  <rect x="760" y="403" width="378" height="20" fill="#0b1120"/>
+  <text x="460" y="417" fill="#46d9ea" font-size="13.5" font-weight="400" text-anchor="start">Core.Systems</text>
+  <text x="1138" y="417" fill="#b69bff" font-size="13.5" font-weight="600" text-anchor="end">Advisory Locks (pg_advisory_xact_lock) · Jaccard PQS</text>
+</g>
 
-    <!-- Row 5: Active Status Prompt -->
-    <g class="row" style="--delay: 0.75s">
-      <path d="M0 436 H640" stroke="#29384f" stroke-width="1"/>
-      <text x="0" y="456" font-size="12" fill="#46d9ea">aditilande08@github:~$</text>
-      <text x="180" y="456" font-size="12" fill="#e2e8f0">echo $STATUS</text>
-      
-      <circle cx="5" cy="477" r="4.5" fill="#30c96a"/>
-      <text x="16" y="481" font-size="11.5" font-weight="600" fill="#30c96a">ONLINE: Ready for Technical Interviews &amp; SDE-1 Campus Drives</text>
-      <text x="500" y="481" font-size="13" font-weight="bold" fill="#46d9ea" class="cursor">▋</text>
-    </g>
-  </g>
+<!-- Connect Section -->
+<text x="460" y="465" fill="#9dacc5" font-size="11" font-weight="600" text-anchor="start" letter-spacing="1.5">CONNECT</text>
+<path d="M533 461H1138" stroke="#29384f"/>
+
+<text x="460" y="490" fill="#46d9ea" font-size="13" font-weight="400" text-anchor="start">Mail</text>
+<text x="1138" y="490" fill="#f8fafc" font-size="13" font-weight="600" text-anchor="end">aditilande08@gmail.com</text>
+
+<text x="460" y="515" fill="#46d9ea" font-size="13" font-weight="400" text-anchor="start">LinkedIn</text>
+<text x="1138" y="515" fill="#f8fafc" font-size="13" font-weight="600" text-anchor="end">/in/aditi-lande</text>
+
+<text x="460" y="540" fill="#46d9ea" font-size="13" font-weight="400" text-anchor="start">GitHub</text>
+<text x="1138" y="540" fill="#f8fafc" font-size="13" font-weight="600" text-anchor="end">@aditilande08</text>
+
+<text x="460" y="565" fill="#46d9ea" font-size="13" font-weight="400" text-anchor="start">LeetCode</text>
+<text x="1138" y="565" fill="#fbbf24" font-size="13" font-weight="600" text-anchor="end">100 Problems Solved (Rank #1.7M)</text>
+
+<!-- Footer -->
+<path d="M36 589H1138" stroke="#29384f"/>
+<text x="36" y="610" fill="#9dacc5" font-size="10" font-weight="400" text-anchor="start">01 / PORTRAIT → CODE → SYSTEMS</text>
+<text x="1138" y="610" fill="#9dacc5" font-size="12" font-weight="400" text-anchor="end">Explore verified engineering projects below ↓</text>
 </svg>

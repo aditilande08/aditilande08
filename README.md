@@ -22,20 +22,19 @@
 
 <br/>
 
-<!-- Side-by-Side: Right-Aligned Developer GIF & Aditi's Verified YAML Card -->
-<img align="right" alt="Developer Coding GIF" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<!-- Side-by-Side: Right-Aligned Hacker GIF & Aditi's YAML Card -->
+<img align="right" alt="Hacker GIF" width="400" height="221" src="https://i.redd.it/n8agw6z2smyb1.gif">
 
 ```yaml
 Name: Aditi Lande
 Pronouns: She/Her
-Occupation: Full-Stack Developer
-Branch: Computer Science & Engineering
+Occupation: Developer
+Branch: Computer Science Engineering Spec. Education Technology
 University: Vellore Institute of Technology, Bhopal
-Location: Bhopal / Pune, India
-Interests: Distributed Systems, Database Concurrency, Web Architecture, Data Analytics, Cloud Architecture
-Currently-Learning: Advanced System Design & Low-Level Concurrency
-Hobbies: Music, Problem Solving, Table Tennis
-Ask me about: PostgreSQL Advisory Locks, Next.js, Capstone Projects
+Location: Bhopal, India
+Interests: Data Analytics, EdTech, Building Products
+Currently-Learning: System Design
+Hobbies: Music 🎧
 Reach-me-at: aditilande08@gmail.com
 ```
 
