@@ -14,9 +14,9 @@
 
 <br/>
 
-<!-- Side-by-Side: Left Pink & White Card SVG & Right Pink Neon Graphic -->
-<img align="left" alt="Developer Card" width="53%" src="./card.svg">
-<img align="right" alt="Laptop + Coffee = Code" width="45%" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
+<!-- Side-by-Side: Right Neon Graphic Floated First + Left Card SVG Flush -->
+<img align="right" alt="Laptop + Coffee = Code" width="44%" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
+<img alt="Developer Card" width="54%" src="./card.svg">
 
 <br clear="both"/>
 
