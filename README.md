@@ -5,7 +5,7 @@
 
 <!-- Typing SVG Header -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=46D9EA&center=true&vCenter=true&width=620&lines=Hii+%F0%9F%91%8B+I'm+Aditi+Lande;Full-Stack+Software+Engineer+(SDE-1);PostgreSQL+Advisory+Locks+%7C+Next.js+16;IIT+Madras+Gold+Medalist+(94%25);IIT+Kharagpur+Elite+Cloud+Certified" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=46D9EA&center=true&vCenter=true&width=620&lines=Hii+%F0%9F%91%8B+I'm+Aditi+Lande;
 </a>
 
 <h3 align="center">Building Resilient, High-Throughput Distributed Web Systems ⚡</h3>
