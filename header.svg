@@ -3,7 +3,7 @@
 <desc id="desc">An animated terminal profile. Portrait morphing into code symbol and sphere. B.Tech CSE (Education Technology) @ VIT Bhopal.</desc>
 
 <defs>
-  <linearGradient id="pinkWhiteAccent" x1="0" y1="0" x2="1" y2="1">
+  <linearGradient id="themeAccent" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#ff69b4"/>
     <stop offset="50%" stop-color="#f472b6"/>
     <stop offset="100%" stop-color="#ffffff"/>
@@ -20,8 +20,8 @@
   @media(prefers-reduced-motion:reduce) { .row { animation: none; } }
 </style>
 
-<!-- Terminal Outer Shell: Dark Obsidian with Glowing Pink-to-White border -->
-<rect x="2" y="2" width="1176" height="626" rx="18" fill="#0c0a12" stroke="url(#pinkWhiteAccent)" stroke-width="1.8"/>
+<!-- Terminal Outer Shell -->
+<rect x="2" y="2" width="1176" height="626" rx="18" fill="#0c0a12" stroke="url(#themeAccent)" stroke-width="1.8"/>
 <path d="M3 48H1177" stroke="#2a1e35"/>
 <circle cx="28" cy="25" r="5" fill="#ff4d88"/>
 <circle cx="47" cy="25" r="5" fill="#f472b6"/>
@@ -33,7 +33,7 @@
 <rect x="36" y="86" width="390" height="486" rx="8" fill="#130f1c" stroke="#331f42"/>
 <path d="M36 101V86h15 M411 86h15v15 M36 557v15h15 M411 572h15v-15" fill="none" stroke="#f472b6" stroke-width="2"/>
 
-<!-- Animated Morphing Portrait with Glowing Pink Particles -->
+<!-- Animated Morphing Portrait -->
 <g clip-path="url(#portraitClip)">
   <g transform="translate(36 86)" fill="#ff7eb6">
 <g transform="translate(178.6 49.5)"><animateTransform attributeName="transform" type="translate" values="178.6 49.5;178.6 49.5;170.9 197.7;170.9 197.7;144.8 143.3;144.8 143.3;178.6 49.5;178.6 49.5" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1;1;.35;.35;.28;.28;1;1" keyTimes="0;.35;.46;.58;.69;.80;.93;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1;0 0 1 1" dur="20s" repeatCount="indefinite"/><path d="M-4.25 -4.25h8.5v8.5h-8.5z"/></g></g>
@@ -679,7 +679,7 @@
 </g>
 
 <!-- ============================================== -->
-<!-- RIGHT PANEL: SYSTEM.INFO ARCHITECTURE (PINK & WHITE) -->
+<!-- RIGHT PANEL: SYSTEM.INFO ARCHITECTURE          -->
 <!-- ============================================== -->
 <text x="460" y="90" fill="#f472b6" font-size="12" font-weight="700" text-anchor="start">SYSTEM.INFO</text>
 <path d="M570 86H1072" stroke="#2a1e35"/>

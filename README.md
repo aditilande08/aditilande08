@@ -15,18 +15,18 @@
 <br/>
 
 <!-- Side-by-Side: Left Pink & White Card SVG & Right Pink Neon Graphic -->
-<img align="right" alt="Laptop + Coffee = Code" width="370" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
-<img align="left" alt="Developer Card" width="460" src="./card.svg">
+<img align="left" alt="Developer Card" width="53%" src="./card.svg">
+<img align="right" alt="Laptop + Coffee = Code" width="45%" src="https://github.com/user-attachments/assets/5ae990d7-8ac1-40c9-8ff3-eb308ab0a3e6">
 
 <br clear="both"/>
 
 <br/>
 
-<!-- Animated Interactive Terminal Header -->
+<!-- Dark & Light Mode Animated Terminal Header -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./header.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./header.svg?v=2">
-  <img alt="Aditi Lande — Developer Profile" src="./header.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg?v=1">
+  <img alt="Aditi Lande — Developer Profile" src="./dark.svg?v=1" width="100%">
 </picture>
 
 <br/>
