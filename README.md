@@ -37,9 +37,9 @@ Reach-me-at: aditilande02@gmail.com
 
 <!-- Animated Interactive Terminal Header -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./header.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./header.svg">
-  <img alt="Aditi Lande — Developer Profile" src="./header.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./header.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./header.svg?v=2">
+  <img alt="Aditi Lande — Developer Profile" src="./header.svg?v=2" width="100%">
 </picture>
 
 <br/>
