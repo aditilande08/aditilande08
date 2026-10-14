@@ -43,7 +43,7 @@
   </a>
   &nbsp;
   <a href="mailto:aditilande02@gmail.com" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="aditilande02@gmail.com" height="30" width="40" />
+    <img align="center" src="https://skillicons.dev/icons?i=gmail" alt="aditilande02@gmail.com" height="30" width="30" />
   </a>
 </p>
 
