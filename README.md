@@ -30,6 +30,49 @@
 
 <br/>
 
+<!-- Featured Engineering Projects -->
+<h2 align="left">🚀 &nbsp; Featured Engineering Projects</h2>
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🏥 Healthcare System</h3>
+      <p><b>High-Concurrency Scheduling</b></p>
+      <p>Medical appointment scheduling engine built with PostgreSQL Advisory Locks (<code>pg_advisory_xact_lock</code>) for race-condition prevention, RBAC, and multi-container Docker environment.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      </p>
+      <a href="https://github.com/aditilande08/healthcare-appointment-platform"><b>Explore Code →</b></a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>💼 TalentDash</h3>
+      <p><b>Compensation Intelligence</b></p>
+      <p>Full-stack compensation analytics platform with PostgreSQL composite indexing, company alias fuzzy normalization, and duplicate detection.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+      </p>
+      <a href="https://github.com/aditilande08/talentdash"><b>Explore Code →</b></a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🔍 DevLens AI</h3>
+      <p><b>Portfolio Static Analysis</b></p>
+      <p>Automated developer portfolio quality scoring (PQS) engine and open-source project matching via Jaccard Similarity vectorization.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NLP-ff69b4?style=flat-square"/>
+      </p>
+      <a href="https://github.com/aditilande08/devlens-ai"><b>Explore Code →</b></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
 <!-- Connect With Me -->
 <h2 align="left">🧑🏻‍💻 &nbsp; Connect with me</h2> 
 
